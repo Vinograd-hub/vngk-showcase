@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>V.N.G.K — Creative Digital Studio</title>
+  <meta name="description" content="V.N.G.K — креативная студия цифровых впечатлений. Дизайн, брендинг, разработка." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__mark">V.N.G.K</div>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Ambient background -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--1"></div>
+    <div class="ambient__orb ambient__orb--2"></div>
+    <div class="ambient__orb ambient__orb--3"></div>
+  </div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top">V.N.G.K<span>®</span></a>
+    <nav class="nav__links">
+      <a href="#about">Студия</a>
+      <a href="#works">Работы</a>
+      <a href="#services">Направления</a>
+      <a href="#contact" class="nav__cta">Связаться</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Меню">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow reveal">Креативная студия цифровых впечатлений</p>
+        <h1 class="hero__title" aria-label="V N G K">
+          <span class="char">V</span><span class="char">.</span><span class="char">N</span><span class="char">.</span><span class="char">G</span><span class="char">.</span><span class="char">K</span>
+        </h1>
+        <p class="hero__sub reveal">Мы проектируем сайты и бренды, которые запоминаются. Точность, ритм и характер — в каждом пикселе.</p>
+        <div class="hero__actions reveal">
+          <a href="#works" class="btn btn--solid">Смотреть работы</a>
+          <a href="#contact" class="btn btn--ghost">Обсудить проект</a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll reveal">
+        <span>листай</span>
+        <div class="hero__scroll-line"></div>
+      </a>
+    </section>
+
+    <!-- About / Manifesto -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <span class="section-head__num">01</span>
+        <span class="section-head__label">Студия</span>
+      </div>
+      <div class="about__grid">
+        <h2 class="about__title reveal">Мы делаем интернет красивее.</h2>
+        <div class="about__text reveal">
+          <p>V.N.G.K — независимая студия на стыке дизайна и технологий. Мы верим, что сильный визуал — это не украшение, а язык, на котором бренд разговаривает с человеком.</p>
+          <p>Каждый проект начинается с вопроса «зачем» и заканчивается результатом, которым гордятся обе стороны.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Works -->
+    <section class="works" id="works">
+      <div class="section-head">
+        <span class="section-head__num">02</span>
+        <span class="section-head__label">Избранные работы</span>
+      </div>
+
+      <div class="works__list">
+        <article class="work reveal">
+          <a href="#" class="work__link">
+            <div class="work__media work__media--1">
+              <span class="work__index">/ 01</span>
+              <span class="work__glyph">◆</span>
+            </div>
+            <div class="work__meta">
+              <h3 class="work__title">Aurora — визуальный айдентика</h3>
+              <span class="work__tag">Branding · Art Direction</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="work reveal">
+          <a href="#" class="work__link">
+            <div class="work__media work__media--2">
+              <span class="work__index">/ 02</span>
+              <span class="work__glyph">◐</span>
+            </div>
+            <div class="work__meta">
+              <h3 class="work__title">Meridian — сайт архитектурного бюро</h3>
+              <span class="work__tag">Web Design · Development</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="work reveal">
+          <a href="#" class="work__link">
+            <div class="work__media work__media--3">
+              <span class="work__index">/ 03</span>
+              <span class="work__glyph">◧</span>
+            </div>
+            <div class="work__meta">
+              <h3 class="work__title">Nova — цифровой продукт</h3>
+              <span class="work__tag">UI/UX · Product</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="work reveal">
+          <a href="#" class="work__link">
+            <div class="work__media work__media--4">
+              <span class="work__index">/ 04</span>
+              <span class="work__glyph">✦</span>
+            </div>
+            <div class="work__meta">
+              <h3 class="work__title">Kosmo — моушн-кампания</h3>
+              <span class="work__tag">Motion · Campaign</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Дизайн</span><i>·</i><span>Брендинг</span><i>·</i><span>Разработка</span><i>·</i><span>Моушн</span><i>·</i><span>Арт-дирекшн</span><i>·</i>
+        <span>Дизайн</span><i>·</i><span>Брендинг</span><i>·</i><span>Разработка</span><i>·</i><span>Моушн</span><i>·</i><span>Арт-дирекшн</span><i>·</i>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <span class="section-head__num">03</span>
+        <span class="section-head__label">Направления</span>
+      </div>
+
+      <div class="services__grid">
+        <div class="service reveal">
+          <span class="service__num">01</span>
+          <h3 class="service__title">Веб-дизайн</h3>
+          <p class="service__desc">Сайты, которые превращают посетителя в клиента — ясные, быстрые, запоминающиеся.</p>
+        </div>
+        <div class="service reveal">
+          <span class="service__num">02</span>
+          <h3 class="service__title">Брендинг</h3>
+          <p class="service__desc">Логотип, фирменный стиль и система, которая звучит одинаково везде.</p>
+        </div>
+        <div class="service reveal">
+          <span class="service__num">03</span>
+          <h3 class="service__title">Разработка</h3>
+          <p class="service__desc">Чистый код, адаптивность и производительность — без компромиссов.</p>
+        </div>
+        <div class="service reveal">
+          <span class="service__num">04</span>
+          <h3 class="service__title">Моушн</h3>
+          <p class="service__desc">Анимация, которая оживляет интерфейс и рассказывает историю.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="stat reveal">
+        <span class="stat__value" data-count="48">0</span>
+        <span class="stat__label">проектов</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__value" data-count="27">0</span>
+        <span class="stat__label">клиентов</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__value" data-count="6">0</span>
+        <span class="stat__label">лет опыта</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__value" data-count="11">0</span>
+        <span class="stat__label">наград</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <h2 class="contact__title reveal">Есть проект?<br />Давайте сделаем его вместе.</h2>
+        <p class="contact__sub reveal">Расскажите о задаче — вернёмся с идеей и сроками в течение дня.</p>
+        <a href="mailto:hello@vngk.studio" class="btn btn--solid contact__btn reveal">hello@vngk.studio</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__top">
+      <span class="footer__logo">V.N.G.K<sup>®</sup></span>
+      <div class="footer__links">
+        <a href="#about">Студия</a>
+        <a href="#works">Работы</a>
+        <a href="#services">Направления</a>
+      </div>
+      <div class="footer__social">
+        <a href="#" rel="noopener">Behance</a>
+        <a href="#" rel="noopener">Telegram</a>
+        <a href="#" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 V.N.G.K Studio</span>
+      <span>Сделано с вниманием к деталям</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
