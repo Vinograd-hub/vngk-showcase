@@ -5,7 +5,7 @@
 ## Стек
 
 - Чистый **HTML + CSS + JavaScript** (без сборки, без зависимостей)
-- Шрифты: [Syne](https://fonts.google.com/specimen/Syne) (заголовки), [Inter](https://fonts.google.com/specimen/Inter) (текст)
+- Шрифты: [Syne](https://fonts.google.com/specimen/Syne) (заголовки), [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) (текст), [Space Mono](https://fonts.google.com/specimen/Space+Mono) (лейблы)
 
 ## Запуск
 
