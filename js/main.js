@@ -157,13 +157,6 @@
       el.addEventListener("mouseleave", () => ring.classList.remove("is-hover"));
     });
 
-    document.querySelectorAll(".work__link").forEach((el) => {
-      el.addEventListener("mouseenter", () => {
-        ring.classList.remove("is-hover");
-        ring.classList.add("is-label");
-      });
-      el.addEventListener("mouseleave", () => ring.classList.remove("is-label"));
-    });
   }
 
   // =========================================================

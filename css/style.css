@@ -543,35 +543,22 @@ section { padding: clamp(80px, 10vw, 150px) clamp(20px, 5vw, 64px); }
 .cursor-dot, .cursor-ring {
   position: fixed;
   top: 0; left: 0;
+  border-radius: 50%;
   pointer-events: none;
   z-index: 4000;
   transform: translate(-50%, -50%);
 }
 .cursor-dot {
-  width: 6px; height: 6px;
+  width: 5px; height: 5px;
   background: var(--accent);
   transition: opacity 0.3s;
 }
 .cursor-ring {
-  width: 34px; height: 34px;
-  border: 1px solid rgba(200, 162, 106, 0.5);
-  display: flex; align-items: center; justify-content: center;
-  transition: width 0.3s var(--ease), height 0.3s var(--ease), background 0.3s var(--ease), border-color 0.3s var(--ease), opacity 0.3s;
+  width: 30px; height: 30px;
+  border: 1px solid rgba(200, 162, 106, 0.55);
+  transition: width 0.35s var(--ease), height 0.35s var(--ease), border-color 0.35s var(--ease), opacity 0.3s;
 }
-.cursor-ring__label {
-  font-family: var(--font-mono);
-  font-size: 0.56rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #0b0b0c;
-  font-weight: 700;
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-.cursor-ring.is-hover { width: 54px; height: 54px; background: var(--accent); border-color: var(--accent); }
-.cursor-ring.is-hover .cursor-ring__label { opacity: 1; }
-.cursor-ring.is-label { width: 84px; height: 84px; background: var(--accent); border-color: var(--accent); }
-.cursor-ring.is-label .cursor-ring__label { opacity: 1; }
+.cursor-ring.is-hover { width: 52px; height: 52px; border-color: var(--accent); }
 
 html.cursor-none, html.cursor-none * { cursor: none !important; }
 
