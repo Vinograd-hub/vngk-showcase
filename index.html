@@ -25,11 +25,21 @@
   <div class="grain" aria-hidden="true"></div>
 
   <!-- Ambient background -->
-  <div class="ambient" aria-hidden="true">
+  <div class="ambient" aria-hidden="true" id="ambient">
     <div class="ambient__orb ambient__orb--1"></div>
     <div class="ambient__orb ambient__orb--2"></div>
     <div class="ambient__orb ambient__orb--3"></div>
   </div>
+
+  <!-- Particles -->
+  <canvas class="particles" id="particles" aria-hidden="true"></canvas>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"><span class="cursor-ring__label">Смотреть</span></div>
 
   <!-- Nav -->
   <header class="nav" id="nav">
@@ -73,7 +83,7 @@
         <span class="section-head__label">Студия</span>
       </div>
       <div class="about__grid">
-        <h2 class="about__title reveal">Мы делаем интернет красивее.</h2>
+        <h2 class="about__title split">Мы делаем интернет красивее.</h2>
         <div class="about__text reveal">
           <p>V.N.G.K — независимая студия на стыке дизайна и технологий. Мы верим, что сильный визуал — это не украшение, а язык, на котором бренд разговаривает с человеком.</p>
           <p>Каждый проект начинается с вопроса «зачем» и заканчивается результатом, которым гордятся обе стороны.</p>
@@ -205,7 +215,7 @@
     <!-- Contact -->
     <section class="contact" id="contact">
       <div class="contact__inner">
-        <h2 class="contact__title reveal">Есть проект?<br />Давайте сделаем его вместе.</h2>
+        <h2 class="contact__title split">Есть проект?<br />Давайте сделаем его вместе.</h2>
         <p class="contact__sub reveal">Расскажите о задаче — вернёмся с идеей и сроками в течение дня.</p>
         <a href="mailto:hello@vngk.studio" class="btn btn--solid contact__btn reveal">hello@vngk.studio</a>
       </div>
